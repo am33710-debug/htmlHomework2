@@ -1,0 +1,165 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+    font-family: Arial, sans-serif;
+    background-color: lightgray;
+}
+
+#title {
+    background-color: darkblue;
+    color: white;
+    padding: 1.2rem;
+    display: flex;
+    align-items: center;
+}
+
+.name {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 0 1.2rem;
+    gap: 3rem;
+}
+.nav a {
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#layout {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 1rem;
+    gap: 1rem;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+    width: 70%;
+    margin: 1rem;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.text1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 5px 10px;
+    padding: 10px;
+}
+.text2 {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    font-size: 1rem;
+    margin: 5px 10px;
+    padding: 5px;
+}
+
+#buttons {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    padding: 5px;
+    gap: 1rem;
+}
+.btn1 {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+.btn2 {
+    color: darkblue;
+    border: 2px solid darkblue;
+    border-radius: 5px;
+    padding: 8px 15px;
+}
+
+#inlineblocks {
+    display: flex;
+    flex-direction: row;
+    margin: 5px 10px;
+    padding: 5px;
+    gap: 1rem;
+}
+.block1, .block2, .block3 {
+    background-color: lightgray;
+    width: 35%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    gap: 5px;
+}
+.blocktext1 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin: 0;
+}
+.blocktext2 {
+    font-size: 13px;
+    margin: 0;
+}
+
+#sidecolumn {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem; /* space between the boxes */
+    background-color: lightgray;
+    width: 30%;
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 10px; /* optional padding inside the column */
+}
+
+.sidecolumn1, .sidecolumn2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px; /* inner spacing for text */
+    margin: 0; /* remove conflicting margins */
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* spacing between h6 and p */
+}
+.sidecolumn1 h6, .sidecolumn2 h6 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.sidecolumn1 p, .sidecolumn2 p {
+    font-size: 13px;
+    margin: 0;
+}
+
+#footer {
+    background-color: darkslategray;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+.footertext1 {
+    flex: 1;
+    padding: 1rem;
+    font-size: 0.9rem;
+}
+.footertext2 {
+    flex: 1;
+    padding: 1rem;
+    font-size: 0.9rem;
+    text-align: right;
+}
